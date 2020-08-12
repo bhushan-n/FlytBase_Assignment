@@ -12,7 +12,7 @@
   <h3 align="center">✨FlytBase_Assignment✨</h3>
 
   <p align="center">
-    An app that generates new boxes in app when user clicks a button. And could move those boxes using your keyboard keys.
+    An app that generates boxes in the app when user clicks 'Add Box' button. And could move those boxes using your keyboard keys.
     <br />
     <br />
   </p>
@@ -52,8 +52,7 @@ On clicking the button, a box is created with a unique number ID. Boxes are of f
 * Use the ‘Delete’ key on the keyboard to remove the selected box.
 * A button to toggle keyboard access.(no listener is active when this toggle is off).
 * No NPM library used to achieve this behaviour.
-
-##Bonus Task:
+### Built With
 ✅ Created a rectangular fence, all the boxes will stay within the fence during movement.
 
 
