@@ -38,9 +38,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center">
 [![Product Name Screen Shot][product-screenshot]]
-</div>
 <h3 align="center">✨A beautiful and a mordern web-app.✨</h3>
 
 ### Features
