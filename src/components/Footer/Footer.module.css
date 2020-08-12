@@ -1,0 +1,26 @@
+.footer {
+  background: #ddd;
+  bottom: 0;
+  left: 0;
+  padding: 0 0;
+  height: 10vh;
+  position: fixed;
+  right: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-flow: row;
+  align-items: center;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.toggle p {
+  font-size: 1.5rem;
+  padding: 0px 10px;
+}
+.button {
+  padding: 20px;
+}

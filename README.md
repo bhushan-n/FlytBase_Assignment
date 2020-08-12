@@ -1,129 +1,68 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/bhushan-n/FlytBase_Assignment">
-    <img src="/images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+### `npm start`
 
-  <h3 align="center">✨FlytBase_Assignment✨</h3>
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-  <p align="center">
-    An app that generates new boxes in app when user clicks a button. And could move those boxes using your keyboard keys.
-    <br />
-    <br />
-  </p>
-</p>
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+### `npm run build`
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Features](#features)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [TODO](#todo)
-* [Contact](#contact)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-<div align="center">
-[![Product Name Screen Shot][product-screenshot]]
-</div>
-<h3 align="center">✨A beautiful and a mordern web-app.✨</h3>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Features
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* User gets to see a button to add a new box in the window. 
-On clicking the button, a box is created with a unique number ID. Boxes are of fixed width and height.
-* Higher id boxes will have a higher z-index.
-* Users can add multiple boxes.
-* To Select/Highlight a box, simply click on it.
-* Use W-A-S-D or arrow keys on the keyboard to move the selected box.
-* Use the ‘Delete’ key on the keyboard to remove the selected box.
-* A button to toggle keyboard access.(no listener is active when this toggle is off).
-* No NPM library used to achieve this behaviour.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Built With
+## Learn More
 
-* [React](https://reactjs.org/)
-* [JavaSrcipt](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [HTML/CSS](https://developer.mozilla.org/en-US/docs/Web/HTML)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<h3 align="center">✨Pure CRA app (no added dependancies)✨</h3>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-<!-- GETTING STARTED -->
-## Getting Started
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-To get a local copy up and running follow these simple steps.
+### Analyzing the Bundle Size
 
-### Prerequisites
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Latest node and npm is recommeneded, please Run:
-```sh
-npm install npm@latest -g
-```
+### Making a Progressive Web App
 
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/bhushan-n/FlytBase_Assignment
-```
-2. Install NPM packages
-```sh
-npm install
-```
-3. Run Locally
-```sh
-npm start
-```
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
 
-<!-- USAGE  -->
-## Usage
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-<h4>. 🟢   Live Example (Production Build):</h4> http://flytbase.s3-website.ap-south-1.amazonaws.com/
+### Deployment
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-<!-- TODO -->
-## todo
+### `npm run build` fails to minify
 
-* ---x----
-
-
-<!-- CONTACT -->
-## Contact
-
-Bhushan Nagpure - [@Bhushannagpure](https://twitter.com/Bhushannagpure) - bhushannagpure059@gmail.com
-
-Linkedin: [@nagpurebhushan](https://www.linkedin.com/in/nagpurebhushan/)
-
-Project Link: [FullThrottleLabs_Assignment](https://github.com/bhushan-n/FlytBase_Assignment)
-
-Portfoil Link: [bhushan.cloudsi.de](https://bhushan.cloudsi.de/)
-
-
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/nagpurebhushan/
-[product-screenshot]: images/screenshot.png
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

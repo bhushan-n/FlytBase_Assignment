@@ -1,0 +1,98 @@
+.Toggle {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 40px;
+}
+
+.Toggle:focus {
+  outline: none;
+}
+
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  position: relative;
+  top: 50%;
+  width: 74px;
+  height: 36px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10003;
+}
+
+.knobs {
+  z-index: 10002;
+}
+
+.layer {
+  width: 100%;
+  background-color: #fdd1d1;
+  transition: 0.3s ease all;
+  z-index: 10001;
+}
+
+.knobs:before,
+.knobs:after,
+.span {
+  position: absolute;
+  top: 4px;
+  width: 20px;
+  height: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  border-radius: 2px;
+  transition: 0.3s ease all;
+}
+
+.knobs:before,
+.knobs:after {
+  color: #4e4e4e;
+  z-index: 10001;
+}
+
+.knobs:after {
+  content: 'YES';
+  left: 4px;
+}
+
+.knobs:before {
+  content: 'NO';
+  right: 4px;
+}
+
+.span {
+  width: 25px;
+  right: 37px;
+  background-color: #f44336;
+  z-index: 10002;
+}
+
+.Toggle .checkbox:checked + .knobs .span {
+  right: 4px;
+  background-color: #03f46f;
+}
+
+.Toggle .checkbox:checked ~ .layer {
+  background-color: #e8fde8;
+}

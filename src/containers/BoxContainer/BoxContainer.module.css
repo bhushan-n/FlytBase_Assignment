@@ -1,0 +1,7 @@
+.BoxContainer {
+  height: 84vh;
+  position: relative;
+  margin: 50px 0;
+  border: dashed;
+  overflow: hidden;
+}

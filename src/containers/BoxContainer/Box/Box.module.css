@@ -1,0 +1,13 @@
+.Box {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  box-shadow: 0 0 3pt 2pt black;
+  background-color: #87b8f0;
+  position: absolute;
+  transition: 0.3s ease all;
+}
+.active {
+  background-color: #3725d3;
+  border: dashed;
+}
