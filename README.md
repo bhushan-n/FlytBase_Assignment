@@ -53,6 +53,9 @@ On clicking the button, a box is created with a unique number ID. Boxes are of f
 * A button to toggle keyboard access.(no listener is active when this toggle is off).
 * No NPM library used to achieve this behaviour.
 
+##Bonus Task:
+✅ Created a rectangular fence, all the boxes will stay within the fence during movement.
+
 
 ### Built With
 
